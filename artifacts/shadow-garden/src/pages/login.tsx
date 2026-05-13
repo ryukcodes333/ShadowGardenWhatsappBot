@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { useLogin } from "@workspace/api-client-react";
 import { useAuth } from "@/context/AuthContext";
 import ParticleBackground from "@/components/ParticleBackground";
-import logoPath from "@assets/7b7ac791-6c04-4e4f-9e07-44131e4310bb_1778662052573.png";
+const logoPath = "/logo.png";
 
 export default function Login() {
   const [identifier, setIdentifier] = useState("");

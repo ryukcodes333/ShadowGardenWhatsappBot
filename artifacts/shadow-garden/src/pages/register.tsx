@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { useRegister } from "@workspace/api-client-react";
 import { useAuth } from "@/context/AuthContext";
 import ParticleBackground from "@/components/ParticleBackground";
-import logoPath from "@assets/7b7ac791-6c04-4e4f-9e07-44131e4310bb_1778662052573.png";
+const logoPath = "/logo.png";
 
 export default function Register() {
   const [form, setForm] = useState({ username: "", display_name: "", whatsapp_number: "", password: "", confirm: "" });
