@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { useAuth } from "@/context/AuthContext";
-import logoPath from "@assets/7b7ac791-6c04-4e4f-9e07-44131e4310bb_1778662052573.png";
+const logoPath = "/logo.png";
 import { Menu, X, User, LogOut } from "lucide-react";
 
 export default function Navbar() {
