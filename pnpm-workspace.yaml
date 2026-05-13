@@ -31,3 +31,5 @@ autoInstallPeers: false
 
 onlyBuiltDependencies:
   - esbuild
+  - '@swc/core'
+  - msw
