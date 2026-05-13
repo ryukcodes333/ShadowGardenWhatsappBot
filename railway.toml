@@ -1,0 +1,8 @@
+[build]
+  buildCommand = "pnpm install --no-frozen-lockfile && pnpm --filter @workspace/shadow-garden build"
+
+  [deploy]
+  # Serve the Vite output as a single-page app.
+  # -s / --single rewrites all 404s to index.html so client-side routing works.
+  startCommand = "npx serve@14 artifacts/shadow-garden/dist/public -s -l $PORT"
+  
